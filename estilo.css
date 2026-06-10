@@ -1,1 +1,89 @@
+body{
+ margin: 0
+}
+nav{
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    margin-top: 15px ;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-left: auto ;
+     padding:5px;
+     letter-spacing: 2px;
+     word-spacing: 50px;
+     display: flex;
+    justify-content: center;
+    
+    
+}
+a{
+    color: rgb(113, 61, 161);
+    
+} 
 
+.conteudo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.conteudo h2{
+    color: white;
+    font-size: 45px;
+    font-family: courier;
+    margin-bottom: -30px;
+}
+
+.conteudo h1{
+    color: white;
+    font-size: 120px;
+    font-family: serif;
+    font-weight: normal;
+    margin: 0;
+}
+
+.conteudo button{
+    margin-top: 20px;
+    padding: 15px 40px;
+    border: none;
+    background-color: white;
+    color: #555;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 3s;
+    transform:scale(1.05);
+}
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    width: 60px;
+    height: auto;
+    width: 220px;
+  height: auto
+}
+.social-icons {
+  position: fixed;   /* fica sempre no topo */
+  top: 15px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+  z-index: 9999;
+}
+
+.icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  backdrop-filter: blur(6px);
+}
