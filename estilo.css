@@ -14,14 +14,11 @@ nav{
      word-spacing: 50px;
      display: flex;
     justify-content: center;
-    
-    
 }
 a{
     color: rgb(113, 61, 161);
     
 } 
-
 .conteudo{
     position: absolute;
     top: 50%;
@@ -29,14 +26,12 @@ a{
     transform: translate(-50%, -50%);
     text-align: center;
 }
-
 .conteudo h2{
     color: white;
     font-size: 45px;
     font-family: courier;
     margin-bottom: -30px;
 }
-
 .conteudo h1{
     color: white;
     font-size: 120px;
@@ -44,7 +39,6 @@ a{
     font-weight: normal;
     margin: 0;
 }
-
 .conteudo button{
     margin-top: 20px;
     padding: 15px 40px;
@@ -63,7 +57,7 @@ a{
     width: 60px;
     height: auto;
     width: 220px;
-  height: auto
+    height: auto
 }
 .social-icons {
   position: fixed;   /* fica sempre no topo */
@@ -73,7 +67,6 @@ a{
   gap: 10px;
   z-index: 9999;
 }
-
 .icon {
   width: 34px;
   height: 34px;
@@ -86,4 +79,8 @@ a{
   font-weight: bold;
   text-decoration: none;
   backdrop-filter: blur(6px);
+}
+.menu li {
+    display: inline-block; /* deixa os itens lado a lado */
+    margin-right: 20px;
 }
